@@ -1,0 +1,115 @@
+@font-face{
+	font-family: CMSans;
+	src: url(../fonts/CMFont.ttf);
+}
+
+
+body { background: white; margin: 0 auto;}
+
+#col-logo { width: 160px; border-radius: 10px; background: white; margin: 20px 0 22px 23px;}
+#col-logo img{width: 125px; padding: 5px;}
+
+.header { background: #a60b0b; }
+.header-topo { background: white; }
+.header-topo .pull-left span { margin-right: 10px; }
+
+.pesquisa {display: inline-flex; margin-top: 10px; width: 80%;}
+.pesquisa #inputInfo1{width: 80%;border-style: none;border-radius: 0; height: 42px; background: #FFFFFF; border-top: 3px solid;border-bottom: 3px solid; border-color: #ffe400;}
+.pesquisa .btn{background: #ffe400; border: none; border-bottom-left-radius: 0; border-top-left-radius: 0;}
+.pesquisa .btn:hover{background: rgba(255, 0, 0, 0.49);}
+
+.slider-produtos {padding: 5px 0 5px 0; text-align: center; background: white;}
+
+.informativo{ background: yellow; text-align: center; }
+
+.menu-direita{background: white; height: 605px;}
+.centro{background: white;}
+
+.newsletter{background: white; padding: 0 0 25px 20px;}
+.newsletter h2{color: #a60b0b;}
+.newsletter h2 .title{font-family: 'CMSans';}
+.newsletter h2 span {margin-right: 10px;}
+.newsletter input.btn{
+    height: 26px;
+    border-radius: 0;
+    border: none;
+    margin-top: -3px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background: #a60b0b;
+    padding: 0 10px 0 10px;
+}
+
+.central-atendimento{background: #a60b0b; color: #FFFFFF; padding: 0 0 25px 20px;}
+.central-atendimento h2 span {margin-right: 10px;}
+.central-atendimento h2 .title{font-family: 'CMSans';}
+.central-atendimento h2{margin-bottom: -20px;}
+
+.mais-vendidos{background: #a60b0b; color: white; padding: 0 10px 30px 10px; text-align: center;}
+.mais-vendidos img.product {width: 80%;}
+.mais-vendidos .title{font-family: 'CMSans';}
+.mais-vendidos h3 .glyphicon{margin-right: 10px;}
+.mais-vendidos .name{font-size: 25px;}
+.mais-vendidos .de{text-decoration: line-through;}
+.mais-vendidos .por{font-weight: bold;}
+
+.promocoes{background: white; text-align: center; padding-bottom: 20px;}
+.promocoes .title{font-family: 'CMSans'; color: #a60b0b;}
+.promocoes h3 .glyphicon{margin-right: 10px; color: #a60b0b;}
+
+.info-sobre-vendas{background: red;}
+
+.marcas{background: white; text-align: center;}
+.produtos-categoria{margin-top: 10px;}
+.produtos-categoria h3{font-family: 'CMSans'; color: #a60b0b; margin-left: 30px;}
+.produtos-categoria h3 span.title{font-weight: bold;}
+.produtos-categoria h3 span.glyphicon{margin-right: 10px;}
+.produtos-categoria img.product {width: 80%;}
+.produtos-categoria ul{width: 100%; display: inline-flex; text-align: center;}
+.produtos-categoria ul li{width: 33.33%;}
+.produtos-categoria ul li .name{font-size: 25px; color: #a60b0b;}
+.produtos-categoria ul li .por{font-size: 20px; color: #a60b0b;}
+.produtos-categoria ul li .de{text-decoration: line-through;}
+
+.adsense{background: white; text-align: center; padding: 20px;}
+
+.search{background: #a60b0b; text-align: center;}
+
+.footer{background: white;}
+.footer .title{font-family: 'CMSans'; font-size: 20px;}
+.footer div { background: white; padding-bottom: 20px;}
+.footer h2 {color: #a60b0b;}
+.footer h2 .glyphicon{margin-right: 10px;}
+.formas-pagamento{background: orange;}
+.redes-sociais{background: white;}
+.selos{background: orange;}
+
+.menu-top{text-align: center; height: 30px; color: #a60b0b; background: white; font-family: 'CMSans'; font-size: 16px; line-height: 34px;}
+
+.cart{height: 100px; background: white; background-image: url(../../skin/images/cart-back.png); background-repeat: no-repeat; background-position: center center; font-family: 'CMSans'; font-size: 16px; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;}
+.cart span{margin-right: 25px;}
+
+.lupa{border: 3px solid; border-right: none; border-color: #ffe400; text-align: center; padding-top: 2px; background: #FFF;}
+.lupa img{width: 35px;}
+
+.slogan{ text-align: center; color: white; font-size: 35px; font-weight: bold; }
+
+.menu{background: #a60b0b; color: white;}
+.menu span.title{font-family: 'CMSans';}
+.menu span{margin-left: 27px; ; font-size: 25px;}
+.dropdown { background: #a60b0b; }
+.menu ul{list-style: none;}
+.menu ul li a{color: white;}
+
+.form input {background: #DCDCDC; color: #8B8B83;}
+.form input:focus{ opacity: 0.5; border-color: #CC0000; -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(197, 0, 0, 0.6); box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(150, 0, 0, 0.6);}
+.form textarea {background: #DCDCDC; color: #8B8B83;}
+.form textarea:focus{ opacity: 0.5; border-color: #CC0000; -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(197, 0, 0, 0.6); box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(150, 0, 0, 0.6);}
+.form .btn{background: #a60b0b; color: white; border: none;}
+.form .title{font-family: 'CMSans'; color: #a60b0b; font-weight: bold; font-size: 25px;}
+.form .glyphicon{color: #a60b0b; font-size: 25px;}
+
+.pagination{float: right; color: #a60b0b;}
+.pagination a{color: #a60b0b;}
+
+.breadcrumb {font-size: 12px; background: white; height: 10px; color: #a60b0b;}

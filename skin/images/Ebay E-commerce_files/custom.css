@@ -1,0 +1,8 @@
+body { background: #D3D3D3; margin: 0 auto;}
+
+#logo { width: 200px; }
+
+.header { background: white; }
+.header div div{display: inline-block;}
+
+.topo { background: white !important; }
